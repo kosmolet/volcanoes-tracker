@@ -1,3 +1,12 @@
+# EONET NASA event tracker
+
+![event tracker](https://res.cloudinary.com/dnkftif1n/image/upload/v1608502093/gun%20shop%20md/2020-12-20_23-06-25_i5pxff.png)  
+
+# Set up
+explore [NASA API](https://api.nasa.gov/) and [google-map-react](https://github.com/google-map-react/google-map-react)  
+create and add Google Map Api to REACT_APP_GOOGLE_CLOUD_API in .env file in root directory  
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
