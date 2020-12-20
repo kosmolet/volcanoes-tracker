@@ -35,3 +35,15 @@ body {
 .spinner h1 {
   margin-top: -100px;
 }
+.info-box {
+  position: absolute;
+  top: 60px;
+  right: 50px;
+  width: 400px;
+  min-height: 200px;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 10px;
+  font-size: 18px;
+  color: #fff;
+}

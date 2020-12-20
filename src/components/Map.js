@@ -1,9 +1,11 @@
 import { useState } from "react";
 import GoogleMapReact from "google-map-react";
 import LocationPin from "./LocationPin";
+import InfoBox from "./InfoBox";
 
 const NATURAL_EVENT_WILDFIRE = 8;
 const NATURAL_EVENT_VOLCANOS = 12;
+const NATURAL_EVENT_SEA_LAKE_ICE = 15;
 
 const Map = ({ eventData, center, zoom }) => {
   const [locationInfo, setLocationInfo] = useState(null);
@@ -31,6 +33,7 @@ const Map = ({ eventData, center, zoom }) => {
       >
         {events}
       </GoogleMapReact>
+      {locationInfo && <InfoBox info={locationInfo} />}
     </div>
   );
 };
