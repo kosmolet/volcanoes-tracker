@@ -4,7 +4,7 @@
 
 # Set up
 explore [NASA API](https://api.nasa.gov/) and [google-map-react](https://github.com/google-map-react/google-map-react)  
-create and add Google Map Api to REACT_APP_GOOGLE_CLOUD_API in .env file in root directory  
+create and add Google Map Api to REACT_APP_GOOGLE_MAP_API in .env file in root directory  
 
 
 # Getting Started with Create React App
